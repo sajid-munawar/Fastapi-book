@@ -5,7 +5,7 @@ from sqlalchemy import String
 from fastapi import FastAPI, Depends
 from typing import Annotated
 
-DB_URL = "postgresql://neondb_owner:dn9UwfKZeIq2@ep-wandering-king-a5g0m4ci.us-east-2.aws.neon.tech/neondb?sslmode=require"
+DB_URL = ""
 
 
 class Base(DeclarativeBase):
